@@ -1,0 +1,58 @@
+.brand-header {
+    margin-left: 1rem;
+}
+
+.input-field > select {
+    display: block !important;
+    width: 100% !important;
+    pointer-events: auto !important;
+    height: 40px !important;
+    opacity: unset !important;
+    margin-top: 3rem !important;
+    position: inherit !important;
+}
+
+#alert_close {
+    cursor: pointer;
+    padding-top: 8px;
+}
+
+.checkbox-login {
+    padding-left: 20px;
+}
+
+.product-description {
+    margin-bottom: 4%;
+}
+
+.final-sum {
+    padding-bottom: 1%;
+    padding-top: 2%;
+}
+
+.padding-1-percent {
+    padding-bottom: 1%;
+}
+
+.busket, .reservation, .admin, .forms, .about, .profile {
+    padding-top: 2% !important;
+    padding-bottom: 3% !important;
+}
+
+.busket {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.view_info{
+    padding-top: 2%;
+    padding-bottom: 6%;
+    position: relative;
+}
+
+.add-to-basket {
+    padding-top: 2%;
+    padding-bottom: -1%;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <link rel="stylesheet" href="../../static/css/material-design/material-icons.css"/>
+    <link rel="stylesheet" href="../../static/css/materialize.min.css" media="screen,projection"/>
+    <link rel="stylesheet" href="../../static/css/index_style.css" media="screen,projection"/>
+    <link rel="stylesheet" href="../../static/css/fix.css" media="screen,projection"/>
+    <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Успешное подтверждение</title>
+</head>
+<body>
+
+<div class="intro blue-grey darken-1 z-depth-1">
+
+    <h4 class="grey-text text-lighten-3">Ура, вы подтвердили свой профиль!</h4>
+    <h5 class="grey-text text-lighten-3">
+        Войдите в свой личный кабинет:
+    </h5>
+
+    <div class="centerized">
+
+        <a class="waves-effect waves-light btn red" th:href="@{/login}">
+            <i class="material-icons right">chevron_right</i>
+            Войти
+        </a>
+
+    </div>
+
+</div>
+
+<script src="../../static/js/jquery-3.2.1.min.js"></script>
+<script src="../../static/js/materialize.min.js"></script>
+</body>
+</html>
