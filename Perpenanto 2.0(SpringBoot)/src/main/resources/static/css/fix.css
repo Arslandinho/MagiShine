@@ -2,6 +2,10 @@
     margin-left: 1rem;
 }
 
+.magnifier {
+    margin-top: 1.2rem;
+}
+
 .input-field > select {
     display: block !important;
     width: 100% !important;
@@ -39,11 +43,19 @@
     padding-bottom: 3% !important;
 }
 
-.busket {
+.profile {
+    margin: 0 1rem;
+}
+
+.busket, .catalog, .product {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
+}
+
+.product {
+    margin-top: -10%;
 }
 
 .view_info{
